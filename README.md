@@ -10,6 +10,67 @@
 
 > Detects **faces** in images or a live webcam feed and predicts each person's **gender** (Male/Female) and **age range** across 8 age buckets — using three pre-trained deep learning models loaded via **OpenCV DNN**.
 
+
+
+## 👥 小组信息
+
+| 项目 | 内容 |
+|------|------|
+| **小组名称** | 性别年龄检测复现小组 |
+| **小组成员** |肖周乐（2025303120176）@Gladsxzhou, 黄张赛（2025303120183）@hzs12 |
+| **项目名称** | Gender and age detection using deep learning 复现 |
+| **原始仓库** | [shsarv/Machine-Learning-Projects](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Gender%20and%20age%20detection%20using%20deep%20learning) |
+
+---
+
+## 📸 项目结果测试
+
+对原始项目提供的 `girl1.jpg` 进行检测，模型输出如下：
+
+![项目结果示例](./image/result_demo.png)
+
+*上图显示了人脸检测框、性别预测（Female）和年龄预测（25-32岁）。*
+
+---
+
+## 🔁 项目复现测试
+
+在另一台独立电脑上，克隆仓库并严格按照步骤执行，得到一致输出：
+
+![复现测试截图](./image/reproduce_demo1.png)
+![复现测试截图](./image/reproduce_demo2.png)
+![摄像头测试截图](./image/reproduce_demo3.png)
+
+*复现环境：Windows 11，Python 3.10，依赖安装后运行 `python gad.py --image girl1.jpg`，输出与原始结果一致。*
+
+---
+
+
+## 🛠️ 环境搭建
+
+ 系统要求
+ 
+- 操作系统：Windows / macOS / Linux  
+- Python 版本：3.7 – 3.11（推荐 3.10）
+
+安装依赖
+
+方法一：使用 pip（推荐）
+
+打开终端（命令提示符 / PowerShell / bash），进入项目根目录，执行：
+pip install -r requirements.txt
+
+方法二：使用 conda
+
+
+
+## 模型文件
+本项目的所有预训练模型（.caffemodel、.pb、.prototxt）已直接存放在仓库中，无需额外下载。如果你重新克隆仓库，文件会自动包含。
+
+
+
+
+
 [🔙 Back to Main Repository](https://github.com/shsarv/Machine-Learning-Projects)
 
 </div>
