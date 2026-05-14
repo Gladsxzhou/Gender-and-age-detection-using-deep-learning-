@@ -1,6 +1,6 @@
 # 性别与年龄检测深度学习项目复现分析
 
-**小组成员**：@Gladsxzhou, @Zhoule Xiao, @chenbingyu-HZAU  
+**小组成员**：肖周乐（2025303120176）@Gladsxzhou，黄张赛（2025303120183）@hzs12  
 **日期**：2026-05-14  
 **原始项目**：[shsarv/Machine-Learning-Projects](https://github.com/shsarv/Machine-Learning-Projects/tree/main/Gender%20and%20age%20detection%20using%20deep%20learning)
 
